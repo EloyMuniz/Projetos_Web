@@ -1,0 +1,77 @@
+/*Nesse código, será criada a estética da página*/
+/*O ".header" representa uma classe que denota caractéristicas para as tags que caem nela*/
+.header{background-image: url(imagens/bg-3.jpg);
+        background-size: cover;
+        background-position: right center;
+        height: 500px;
+    }
+ .header ul{text-align: right;
+            }
+ .header li{display: inline-block;
+            border-style: solid;
+            text-decoration: none;
+            text-transform: uppercase;
+            border: 0px solid black;
+
+            }
+ .header a{text-decoration: none;
+            background: rgba(0,0,0, 0.3);
+            color: black;
+            font-size: 14px;}
+  .header a:hover{
+   	background: rgba(0,0,0, 0.5);
+   }
+
+   .div1{text-align: center;
+         margin-top: 150px;
+         color: white;
+
+
+     }
+.div1 h1{text-transform: uppercase;
+	text-shadow: 3px 3px 2px #333;
+}
+.div1 p{display: inline-block;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	padding: 5px;
+	background-color: rgba(0,0,0, .8);
+	text-shadow: 3px 3px 2px #333;
+}
+main{
+    width: 80%;
+    margin: auto;
+}
+.card{
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+}
+.card-1, .card-2{
+    margin-right: 2%;
+}
+.card img {
+
+   width: 100%; 
+    display: block;
+}
+.card p{
+    text-transform: ;
+    background-color: #393535;
+    color: white;
+    margin: 0;
+    padding: }
+.singular0 {background-color: white;
+          }
+.singular{background-color: grey;
+          font-size: 20px;
+          text-shadow: 3px 3px 2px #333;
+          text-align: center;
+      }
+
+.rodape{text-align: center;
+        background-color: grey;
+        text-shadow: 2px 2px 2px black;
+        color: white;
+        font-size: 12px;}
