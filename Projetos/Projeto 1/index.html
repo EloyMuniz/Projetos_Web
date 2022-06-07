@@ -1,0 +1,61 @@
+<!-- O código a seguir descreve a estrutura padrão de uma página web sem a seção de "navigation"(leva para outras partes ou páginas do site): header(cabeçalho), main(conteúdo principal),  e footer(rodapé da página)-->
+<!doctype html>
+	<!-- O conteúdo de toda a página precisa ser englobado pela tag "html"-->
+	<html lang="pt-br">
+	<!--Em "head", vai a informação *sobre* o código, isto é, são metadados sobre o código, falam sobre ele.-->
+		<head>
+			<title> Projeto 1 Curso Web Design Completo: HTML5, CSS3 e JS + 5 Projetos
+            </title>
+			<meta charset="utf-8">
+			<meta name="author" content="Eloy Jr">
+			<meta name="keywords" content="html5, CSS, tecnologia">
+			<link href="estilo.css" rel="stylesheet">
+		</head>
+		<!--Na tag "body", vai todo a informação que descreve o código que o cliente ou usuário está vendo quando a página, site é acessado--> 
+		<body>
+			<!--Por convenção, na tag "header", em resumo, define os tópicos que estarão no site ou página.--> 
+			<header class="header">
+				<!--As tags "ul" e "li" representam, respectivamente, listas não ordenadas e elemento da lista-->
+				<ul class="bloco">
+					<li><a href="index.html">início</a></li>
+					<li><a href="#">quem sou eu</a></li>
+					<li><a href="#">contato</a></li>
+				</ul>
+				
+                <!--A seguir vale colocar uma "div", tag que funciona apenas para restringir uma parte do código para se aplicar uma classe ou id, para manipular apenas "h1" e "p"-->
+
+				<div class="div1">
+                  <!--h1 é um título-->
+				  <h1>curso web fundamentos</h1>
+				  <!-- p denota um parágrafo-->
+				  <p>Aprenda HTML, CSS E Javascript</p>
+
+			    </div>
+			</header>
+			<!--Como foi dito na introdução, a tag "main" representa o conteúdo principal da página-->
+			<main>
+				<div class="div2">
+				<div class= "card card-1" >
+				 <p><img src="imagens/card_01.png">Seletores</p>
+				</div>
+				<div class="card card-2">
+				 <p><img src="imagens/card_02.jpg">Posicionamento</p>
+				</div>
+				<div class="card card-3">
+				 <p><img src="imagens/card_03.jpg">Fontes e Ícones</p>
+			    </div>
+			    <div class="singular0">
+			     <div class="singular">
+				 <p>Projeto 1 Treino</p>
+			     </div>
+				 <p>Insira o primeiro parágrafo</p>
+				 <p>Insira o segundo</p>
+                </div>
+                </div>
+			</main>
+            <!-- A tag footer representa notas de rodapé da página ou site.-->
+			<footer class="rodape">
+				<p>Copyright &copy; 2018</p>
+			</footer>
+		</body>
+	</html>
